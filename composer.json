@@ -1,0 +1,14 @@
+{
+    "name": "foodcheri/BatchBundle",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "foodcheri/batch-php-sdk": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/foodcheri/batch-php-sdk"
+        }
+    ]
+}

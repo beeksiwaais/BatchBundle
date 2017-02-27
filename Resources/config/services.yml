@@ -1,0 +1,4 @@
+services:
+    foodcheri_batch.service:
+        class: Foodcheri\BatchBundle\Service\BatchService
+        arguments: [%rest_api_key%, %api_key%]
